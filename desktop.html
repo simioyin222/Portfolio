@@ -1,0 +1,371 @@
+<meta charset="UTF-8">
+<link rel="stylesheet" href="css/desktop.css?ver=1.1">
+
+
+   <body>
+      <div id='body_outermost_wrapper'>
+
+         <div class='header_wrapper'>
+            <div class='header_logo'><img src='http://www.maxgiddens.com/images/logo21.png'>
+               <div></div>
+            </div>
+            <div class='header_bio'>
+            <span>Who is Max Giddens?&nbsp;</span> I'm a passionate craftsman. I tenaciously persue a thorough attention to detail. I thoughtfully consider input from others, and I have a strong bearing on how to incorperate feedback into the larger
+               picture. I know what I need to learn next, because I'm not afraid to keep growing. And I care deeply for the quality of the projects in my hands.<span> I'm a level designer.</span>
+            </div>
+            <div class='header_icons header_icons_second'>
+               <a href="https://artstation.com/maxgiddens" target="_blank">
+                  <div class="header_icons_wrapper"><div class="icon_base icon_artstation_hl"></div></div>
+                  <div class="header_icons_label">Art Station</div>
+               </a>
+            </div><!--
+         --><div class='header_icons'>
+               <a class='scrollLink' href='#resume_anchor'>
+                  <div class="header_icons_wrapper"><div class="icon_base icon_contact_hl"></div></div>
+                  <div class="header_icons_label">Contact</div>
+               </a>
+            </div><!--
+         --><div class='header_icons header_icons_fourth'>
+               <a>
+                  <div class="header_icons_wrapper"><div class="icon_base icon_resume_hl"></div></div>
+                  <div class="header_icons_label">Resume</div>
+               </a>
+            </div><!--
+         --><div class='header_icons' onclick="pageSwitch()">
+               <a>
+                  <div class="header_icons_wrapper"><div class="icon_base icon_blog_hl"></div></div>
+                  <div class="header_icons_label">Blog</div>
+               </a>
+            </div>
+         </div>
+         
+         
+         <div id="pagebody_wrapper">
+            <div id="main_page">
+               <div class="sizzle_wrapper" style="overflow-y:hidden;">
+                  <div>
+                     <div class="sizzle_portrait_bg"></div>
+                     <div class="sizzle_portrait"></div>
+                     <div class="sizzle_portrait_call"></div>
+                     <div class="sizzle_video_grid"></div>
+                  </div>
+                  <video id="sizzle_bg_video" width="800" height="450" autoplay="" loop="" muted="" style="margin-top: -20px; opacity: 1; transition: opacity 2s;"></video>
+               </div>
+
+               <div class='genre_selection_wrapper'>
+                  <div class='section_thumb' onclick='change_section(1)'>
+                     <div>LEVEL DESIGN</div>
+                     <div></div>
+                  </div>
+
+                  <div class='section_thumb' onclick='change_section(2)'>
+                     <div>GAME ASSETS</div>
+                     <div></div>
+                  </div>   
+                  <!--<div class='section_thumb' onclick='change_section(3)'><img src="http://www.maxgiddens.com/images/graphics_thumb.jpg"><div>Graphic Design</div><div></div></div>-->
+                  <div id='carrot'>
+                     <div class="carrot_inner"></div>
+                  </div>
+
+               </div>
+
+               <div id='genre1' class='genre_wrapper'>
+                  <div class='genre_container'>
+                     <div class='enviro_overall_outer_wrapper'>
+                        <div class='enviro_content_outer_wrapper'>
+                           <div class='env_media_toggler_wrapper'>
+                              <div id='env_media_toggler_highlight'></div>
+                              <div id='env_media_toggler_vid' class='env_media_toggler' onclick='env_media_toggler(1)' data-media-active='1' data-media-type='1'><span class="fab fa-youtube fa-2x"></span></div>
+                              <div id='env_media_toggler_pics' class='env_media_toggler env_media_toggler_deselected' onclick='env_media_toggler(2)'><span class="fa fa-image fa-2x"></span></div>
+                           </div>
+
+                           <ul class='env_projects' data-autoplay='true'>
+                              <li data-info-type='vidUrl' data-vidprovider='vimeo' data-indata='265976886'></li>
+                              <li data-info-type='textInput' data-indata-title='De_Titan'>I’m very proud of the work I’ve put into Titan so far. I definitely bit off more than I could chew all at once with this project, but it has been a huge opportunity to identify where I went wrong and to take away something useful
+                                 from those mistakes. <br><br> I now have practice determining a reasonable scope for a project, setting up goals for the completion of manageable segments, improved time management, and many other strategies for managing a larger
+                                 project. Most importantly though I’ve learned about realistically identifying a minimum viable product. How to look for where the cuts can be made, and how to make sure those cuts can be made while leaving the underlying product
+                                 intact.
+                              </li>
+                              <li data-info-type='thumbURL' data-indata='titan.jpg' data-indata-title='De_Titan'></li>
+                              <li data-info-type='photoURL' data-indata='titan/titan3.jpg'></li>
+                              <li data-info-type='photoURL' data-indata='titan/titan1.jpg'></li>
+                              <li data-info-type='photoURL' data-indata='titan/titan6.jpg'></li>
+                              <li data-info-type='photoURL' data-indata='titan/titan4.jpg'></li>
+                              <li data-info-type='photoURL' data-indata='titan/titan5.jpg'></li>
+                              <li data-info-type='photoURL' data-indata='titan/titan2.jpg'></li>
+
+                           </ul>
+                           <ul class='env_projects' data-autoplay='true'>
+                              <li data-info-type='vidUrl' data-vidprovider='vimeo' data-indata='280610663'></li>
+                              <li data-info-type='textInput' data-indata-title='De_Facade'>Facade was shipped in CS:GO Operation Vanguard at the end of 2014 to about 6.5 million monthly unique players. Aside from being an honor to have my work included in a popular AAA title, it was an opportunity to learn about shipping
+                                 a product to a larger audience.<br><br>Before Valve launched their map pack facade had a respectable 34 thousand unique subscribers. The type of attention I got at those numbers resulted in a great feedback cycle. However, being
+                                 on the radar of 6.5 million users was a different experience all together. Within minutes of the operation launching there were youtube videos and forum posts of people finding bugs and small exploits. Stuff that we missed after
+                                 hundreds of hours of testing by us and by Valve. It made me aware of the implications of millions of eyes on one product. There is simply a different standard at that level, one which requires painstaking attention to detail
+                                 in order to be achieved.</li>
+                              <li data-info-type='thumbURL' data-indata='facade.jpg' data-indata-title='De_Facade'></li>
+                              <li data-info-type='photoURL' data-indata='facade/facade1.jpg'></li>
+                              <li data-info-type='photoURL' data-indata='facade/facade2.jpg'></li>
+                              <li data-info-type='photoURL' data-indata='facade/facade3.jpg'></li>
+                              <li data-info-type='photoURL' data-indata='facade/facade4.jpg'></li>
+                              <li data-info-type='photoURL' data-indata='facade/facade5.jpg'></li>
+                              <li data-info-type='photoURL' data-indata='facade/facade6.jpg'></li>
+                              <li data-info-type='photoURL' data-indata='facade/facade7.jpg'></li>
+                              <li data-info-type='photoURL' data-indata='facade/facade8.jpg'></li>
+                              <li data-info-type='photoURL' data-indata='facade/facade9.jpg'></li>
+                           </ul>
+                           <ul class='env_projects' data-autoplay='true'>
+                              <li data-info-type='vidUrl' data-vidprovider='vimeo' data-indata='280609011'></li>
+                              <li data-info-type='textInput' data-indata-title='WibiData Project'>The WibiData project was commissioned as a hiring tool to be used by WibiData (a data analytics company) as a job application for new hires. The idea was to build a small campaign of puzzle levels based in a rebranded version of the popular puzzle game "Portal 2". My responsibility for the project was to create a single coop multiplayer level that would be satisfying to players looking for multiplayer experiences without expending too many resources on several multiplayer levels. <br><br>I decided to accomplish this by creating a large multi-part puzzle and adding a rug pull where players thought the level might end. This turned the supposed endpoint into a checkpoint before an unexpected final large puzzle. The result of the large puzzle opening up to become even larger was a sense of scale which matched that of several levels while only requiring the creation of one large one.</li>
+                              <li data-info-type='thumbURL' data-indata='wibi.jpg' data-indata-title='Wibi Data'></li>
+                              <li data-info-type='photoURL' data-indata='wibi/wibi1.jpg'></li>
+                              <li data-info-type='photoURL' data-indata='wibi/wibi2.jpg'></li>
+                              <li data-info-type='photoURL' data-indata='wibi/wibi5.jpg'></li>
+                              <li data-info-type='photoURL' data-indata='wibi/wibi6.jpg'></li>
+                              <li data-info-type='photoURL' data-indata='wibi/wibi4.jpg'></li>
+                           </ul>
+                           <ul class='env_projects' data-autoplay='true'>
+                              <li data-info-type='vidUrl' data-vidprovider='vimeo' data-indata='280609011'></li>
+                              <li data-info-type='textInput' data-indata-title='Lab Rat'>Labrat is an unfinished project that's always in the back of my head. It was initially meant to be a mod for Portal 2 where you play as a scientist character from the lore of the games. A lot of work was put into the project at this stage, but as a more amateur project a lack of direction ultimately caused it to fizzle out.<br><br>Even though the project was dead in the water I was enamored by the idea of the protagonist. This character was schizophrenic, he was trapped without the medicine that helped him cope with his illness, and the place he was trapped was in itself otherworldly. The line between reality and what was in his mind was a complete blur. I love the dark possibilities of that core concept and I'm slowly designing a game that uses it as its core gameplay mechanic.</li>
+                              <li data-info-type='thumbURL' data-indata='labrat.jpg' data-indata-title='Lab Rat'></li>
+                              <li data-info-type='photoURL' data-indata='labrat/labrat1.jpg'></li>
+                              <li data-info-type='photoURL' data-indata='labrat/labrat2.jpg'></li>
+                              <li data-info-type='photoURL' data-indata='labrat/labrat3.jpg'></li>
+                           </ul>
+                        </div><!-- 
+
+--><div class='enviro_thumb_wrapper updated_bar'>
+
+                        <div id='enviro_thumb_carrot_bar'>
+                           <div class='enviro_thumb_carrot'><div class='enviro_thumb_inner_carrot enviro_thumb_inner_carrot_active'></div></div>
+                        </div>
+
+                        </div>
+                     </div>
+                  </div>
+               </div>
+
+               <div id='genre2' class='genre_wrapper'>
+                  <div class="model_overall_outer_wrapper">
+                     <div class="model_iframe_wrapper">
+                        <div class="model_iframe_content" id="model_iframe_content">
+                           <iframe id="model_iframe" src="" frameborder="0" allowvr allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true"
+                                   onmousewheel=""></iframe>
+                           <div class="model_iframe_fullscreen"><i class="fas fa-expand fa-1x"></i></div>
+                           <div class="model_iframe_exit_fullscreen">✖</div>
+                        </div>
+                     </div><!-- 
+
+--><div class="model_thumbs_wrapper">
+                     <div class="model_thumbs_container updated_bar">
+                        <ul class='model_projects'>
+                           <li data-url='4bdfc678965643c281625591a5d474ea' data-thumbnailurl='lift.png' data-autorot='true'></li>
+                           <li data-url='36465368779c4a5cb437aa6b224fdf91' data-thumbnailurl='door.png'></li>
+                           <li data-url='cc8927339d0e40faa164fdec5eed8554' data-thumbnailurl='crane_set.png' data-autorot='true'></li>
+                           <li data-url='feff1c5687654356aec4bf49f62dcb59' data-thumbnailurl='power_box.png' ></li>
+                           <li data-url='47d40f61ad4d43118e0775ab9bbf4d60' data-thumbnailurl='cutting_cart.png' data-autorot='true'></li>
+                           <li data-url='9bd9bc8d3b32414381f97b4de70b80c5' data-thumbnailurl='cutting_cart.png' data-autorot='true'></li>
+                           <li data-url='47d40f61ad4d43118e0775ab9bbf4d60' data-thumbnailurl='cutting_cart.png' data-autorot='true'></li>
+                           <li data-url='9bd9bc8d3b32414381f97b4de70b80c5' data-thumbnailurl='cutting_cart.png' data-autorot='true'></li>
+                           <li data-url='47d40f61ad4d43118e0775ab9bbf4d60' data-thumbnailurl='cutting_cart.png'></li>
+                           <li data-url='9bd9bc8d3b32414381f97b4de70b80c5' data-thumbnailurl='cutting_cart.png'></li>
+                        </ul>
+                     </div>
+                     </div>
+                  </div>
+               </div>
+
+               <div id='genre3' class='genre_wrapper'>
+                 <!--genre 3 stuff?-->
+               </div>
+               <a id='honor_anchor'></a>
+               <div class='honor_wrapper'>
+                  <div class='honor_inner_wrapper'>
+                     <div class='honor_container_ico'><div class="icon_base icon_honor"></div></div>
+                     <div class='honor_container'>
+                        <div>Facade<span> | Competitive Multiplayer Map</span></div><br>1st Prize in the 2014 CEVO - Game Banana Mapping Contest</div>
+                     <div class='honor_container_ico'><div class="icon_base icon_honor"></div></div>
+                     <div class='honor_container'>
+                        <div>Facade<span> | Competitive Multiplayer Map</span></div><br>Included in Counter Strike: Global Offensive Operation Vanguard</div>
+                     <div class='honor_container_ico'><div class="icon_base icon_spotlight"></div></div>
+                     <div class='honor_container'>
+                        <div>Titan<span> | Competitive Multiplayer Map</span></div><br>Featured in Community Spotlight on Mapcore.com</div>
+                  </div>
+               </div>
+
+               <a id="resume_anchor"></a>      
+               <div class="resume_outer_wrapper">
+                  <div class="resume_inner_wrapper">
+                     <div class="resume_inner_wrapper_center">
+                        <div class="resume_column">
+                           <div class="resume_header">Max Giddens | <span>Level Designer</span></div>
+                           <div class="resume_bio">Creating worlds for people to experience and explore has been my passion for the past decade. I’ve played video games for as long as I can remember, but starting with Halo 3’s “forge mode” I became increasingly interested in how they are made. I eagerly toiled away in the clunky editor to create intersting mini games and competitive multiplayer maps inamered with the experience of building something that people would interact with. I knew then that I wanted to dive deeper into this world.<br><br>
+                              Since then I have picked up whatever new skill would help me build bigger and better projects. Modeling, texturing, color and lighting psychology. Whatever I can add to my tool belt to keep growing as a designer.<br><br>
+                              My drive has led me to the point that my work has been recognized by sites like PC Gamer and included in CS:GO. I love what I do and I’m excited to continue expanding my skills and creating more complex and engaging projects.</div>
+                        </div>
+                        <div class="resume_column">
+                           <div class="resume_column_heading">Skills</div>
+                           <ul class="list-bullet-resume">
+                              <li>Enviroment Detailing / Visual Storytelling</li>
+                              <li>Competitive Multiplayer Level Design</li>
+                              <li>Singleplayer Level Pathing and Layout</li>
+                              <li>Refining Level Layouts Based on Player Feedback</li>
+                              <li>3D/2D Puzzle Design</li>
+                              <li>3D Asset Creation and Optimization</li>
+                              <li>Texture Creation</li>
+                              <li>Scripting and Basic Programing</li>
+                              <li>Graphic Design and UI Design</li>
+                           </ul>
+                           <div class="resume_spacer"></div>
+                           <div class="resume_column_heading">Software</div>
+                           <ul class="list-bullet-resume">
+                              <li>3D Studio Max</li>
+                              <li>Substance Painter</li>
+                              <li>Photoshop</li>
+                              <li>Source Engine/Hammer Editor</li>
+                              <li>HTML 5, CSS, Javascript/Jquery, PHP, MySQL</li>
+                           </ul>
+                        </div>
+                        <!--
+-->
+                        <div class="resume_column">
+                           <div class="resume_column_heading">Experience</div>
+                           <ul class="list-bullet-resume">
+                              <li>Professional
+                                 <ul>
+                                    <li>De_Facade: Operation Vanguard, <br>Counter Strike: Global Offensive</li>
+                                 </ul>
+                              </li>
+                              <br>
+                              <li>Personal
+                                 <ul>
+                                    <li>De_Titan: Competitive Multiplayer Map </li>
+                                    <li>Wibi Data: Multiplayer Campaign</li>
+                                    <li>Labrat: Single player story mod</li>
+                                 </ul>
+                              </li>
+                           </ul>
+                           <div class="resume_spacer2"></div>
+                           <div class="resume_column_heading">Contact</div>
+                           <div class="resume_contact_ico_wrapper">
+                              <div class="resume_contact_ico">
+                                 <a href="mailto:maxgiddens@gmail.com"><div class="icon_base icon_email"></div></a> 
+                              </div><!--
+--><div class="resume_contact_ico">
+                                 <a href="https://www.linkedin.com/in/max-giddens/" target="_blank"><div class="icon_base icon_linkedin"></div></a>
+                              </div><!--
+--><div class="resume_contact_ico">
+                                 <a href="https://artstation.com/maxgiddens" target="_blank"><div class="icon_base icon_artstation"></div></a>
+                              </div><!--
+--><div class="resume_contact_ico">
+                              <a><div class="icon_base icon_resume"></div></a>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class='mention_wrapper'>
+                  <div class='mention_inner_wrapper'>
+                     <div class='mention_container'>
+                        <a href='https://www.wired.com/2013/01/wibidata-portal-game/'>
+                           <div><div class="pub_icon_wrapper"><div class="pub_icon_base pub_icon_wired"></div></div></div>"Since WibiData published the levels, they’ve been a huge a hit for getting quality job candidates..."
+                        </a>
+                     </div>
+
+                     <div class='mention_container'>
+                        <a href='http://www.escapistmagazine.com/news/view/121677-Company-Uses-Portal-2-Mod-to-Recruit-Programmers'>
+                           <div><div class="pub_icon_wrapper"><div class="pub_icon_base pub_icon_escapist"></div></div></div>"The mod is a very cool way to attract people to apply for a job who might not otherwise..."
+                        </a>
+                     </div>
+
+                     <div class='mention_container'>
+                        <a href='https://www.wired.com/2013/01/wibidata-portal-game/'>
+                           <div><div class="pub_icon_wrapper"><div class="pub_icon_base pub_icon_kotaku"></div></div> </div>“Those wanting to work for WibiData better have impeccable Portal problem solving skills...”
+                        </a>
+                     </div>
+
+                     <div class='mention_container'>
+                        <a href='http://www.pcgamer.com/the-best-and-worst-maps-in-csgo/'>
+                           <div><div class="pub_icon_wrapper"><div class="pub_icon_base pub_icon_pcgamer"></div></div></div>"I like the complex configuration of bombsite B, and that it’s countered a bit by open windows that beg to have flash grenades thrown through."
+                        </a>
+                     </div>
+                  </div>
+               </div>
+            </div><!-- main page end -->
+            <div id="blog_page">
+               <div class="blog_section">
+                  <div class="blog_header">
+                     <div class="blog_header_heading">My Blog<span class="blog_header_sub_heading">&nbsp; <b>//</b>&nbsp; A few things I've written about the work I've done.</span></div>
+                  </div>
+
+                  <div class="blog_post_wrapper">
+                     <div class="blog_post_inner_wrapper">
+                        <div class="blog_entry_section">
+                           <ul class="blog_post">
+                              <li data-file='content_tut' data-title='Uncontaminated Content' data-date='Mar 2019' data-thumbnailurl='content_tut/content_tut.jpg'>When building a level with custom content you’ll eventually find yourself at a stage where you need to pack all of your fancy OC into your .BSP. When that time comes you’re also going to need a way to test that you didn’t forget to pack anything and that it...</li>
+                              <li data-file='blog_test' data-title='Creating de_Facade' data-date='Nov 2014' data-thumbnailurl='creating_de_facade/facade.jpg'>When you look at the finished product of most things, it’s hard to imagine the many individual parts that made them what they are. Often many of the details that define something are ones that aren’t even visible in the final version. A lot of decisions went into the...</li>
+                              <li data-file='challenge_coin' data-title='Challenge Coin IRL' data-date='Sept 2018' data-thumbnailurl='challenge_coin/challenge_coin.jpg'>At least within the CS:GO level design community having a map included in an operation is known as “getting coined”. As an added bonus to having millions of eyes on your map valve awards a neat exclusive digital challenge coin with your map name inscribed...</li>
+                              <li data-file='lavout_vs_aesthetic' data-title='Layout vs Aesthetic' data-date='Aug 2015' data-thumbnailurl='lavout_vs_aesthetic/titan.jpg'>Visuals and gameplay are both vital to building a successful map. Whether a map is started by building a layout, or with a great idea for a theme, it will likely be ignored if it isn’t both fun to play and visually interesting. The most important concept of building...</li>
+                           </ul>
+                           <div><div class="blog_return_home"><div class="blog_return_home_inner">Return Home</div></div><div class="blog_entry_list_ico"><div><i class="fas fa-list-ul"></i></div></div><div class="blog_entry_grid_ico"><div><i class="fas fa-th"></i></div></div></div>
+                           <div class="blog_entry_section_inner blog_bar"><div class="blog_entry_section_inner_inner"></div></div>   
+                        </div><!--
+                     --><div class="blog_post_container"><div class="blog_post_inner_container"></div></div>
+                     </div>
+                  </div>
+               </div>
+            </div><!-- blog page end -->
+         </div> 
+
+         <div style="width:100%; height:50px; background: linear-gradient(-135deg, #222222, #1d2531); text-align: center; position: relative; color: #bdbacd; font-size: 12px">
+            <div style="padding-top: 8px;">Max built this website by hand. That's pretty neat right?</div>
+            <div style="padding-top: 6px;font-size: 10px">Copyright © 2018-2019 <b>Maxwell Giddens</b></div>
+         </div>
+
+      </div>
+   </div>
+</div>
+
+<!--
+<div style='height:400px;'></div>
+<span style="color:white;">remember this link https://labs.sketchfab.com/experiments/screenshots/</span>
+
+<div style="width:1000px;height:1000px;" id='photosphere2'></div>
+-->
+
+<div class='fullscreen_photo' id='fullscreen_photo' data-numSlides='0' >
+   <div class='fullscreen_photo_prev' onclick='fullscreen_prev_slide()'><span class='fa fa-chevron-left fa-1x'></span></div>
+   <div class='fullscreen_photo_next' onclick='fullscreen_next_slide()'><span class='fa fa-chevron-right fa-1x'></span></div>
+   <div class='fullscreen_close' onclick='close_fullscreen()'>✖</div>
+   <div class='fullscreen_photo_frame' id='fullscreen_photo_frame'>
+      <div class='fullscreen_slideshowIndicatorWrapper'><div class='fullscreen_slideshowIndicator'></div></div>
+   </div>
+</div>
+
+<div class='fullscreen_photo_blog' id='fullscreen_blog' data-numSlides='0' >
+   <div class='fullscreen_close' onclick='close_blog_fullscreen()'>✖</div>
+   <div class='fullscreen_photo_frame' id='fullscreen_blog_photo_frame'>
+   </div>
+</div>
+
+<div class="scroll_to_top"><span class="fa fa-chevron-up fa-1x"></span></div>
+
+<div id="load_curtain" style="position:fixed;width:100%;height:100%;background:#222222 url(http://www.maxgiddens.com/images/escheresque_ste.png);z-index:1000;top:0;left:0;"></div>
+
+<div id="hidden_sizzle_wrapper">
+   <video id='hidden_sizzle'><source src="http://www.maxgiddens.com/videos/titan_demoreel.mp4" type="video/mp4"></video>
+</div>
+
+<img onLoad="doDesktopThings();" style="display:none;" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+
+</body>
+</html>
+
+<!--
+<link rel='stylesheet prefetch' href='https://cdn.rawgit.com/mistic100/Photo-Sphere-Viewer/master/dist/photo-sphere-viewer.min.css'>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/three.js/r79/three.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/dot/1.0.3/doT.min.js'></script>
+<script src='https://cdn.rawgit.com/mistic100/uEvent/master/uevent.min.js'></script>
+<script src='https://cdn.rawgit.com/malko/D.js/master/lib/D.min.js'></script>
+<script src='https:div/cdn.rawgit.com/mistic100/Photo-Sphere-Viewer/master/dist/photo-sphere-viewer.min.js'></script>
+-->
