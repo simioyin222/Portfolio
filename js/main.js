@@ -1,3 +1,8 @@
+$(document).ready(function() {
+  console.log("jQuery is loaded");
+});
+
+
 $('.open-overlay').click(function() {
     var overlay_navigation = $('.overlay-navigation'),
       nav_item_1 = $('nav li:nth-of-type(1)'),
