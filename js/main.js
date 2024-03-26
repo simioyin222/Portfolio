@@ -35,20 +35,59 @@ $('.open-overlay').click(function() {
   })
 
   document.addEventListener('DOMContentLoaded', () => {
-    const navItems = document.querySelectorAll('.overlay-navigation ul li a');
+    const navLinks = document.querySelectorAll('.overlay-navigation ul li a');
 
-    navItems.forEach(item => {
-        item.addEventListener('click', function(e) {
+    navLinks.forEach(link => {
+        link.addEventListener('click', (e) => {
             e.preventDefault();
-            const targetId = this.getAttribute('href').substring(1);
+            const targetId = link.getAttribute('href').substring(1);
             const targetSection = document.getElementById(targetId);
 
-            if (targetSection) {
-                window.scrollTo({
-                    top: targetSection.offsetTop,
-                    behavior: 'smooth'
-                });
-            }
+            targetSection.scrollIntoView({ behavior: 'smooth' });
         });
     });
+});
+
+const projects = [
+  {
+      name: 'Project One',
+      description: 'This is a great project.',
+      link: '#',
+      imageUrl: 'path/to/image.jpg'
+  },
+  {
+      name: 'Project Two',
+      description: 'Another great project.',
+      link: '#',
+      imageUrl: 'path/to/another-image.jpg'
+  }
+  // add more projects as needed
+];
+
+function loadProjects() {
+  const projectsContainer = document.querySelector('.project-container');
+
+  projects.forEach(project => {
+      const projectElement = document.createElement('div');
+      projectElement.className = 'project';
+      projectElement.innerHTML = `
+          <h3>${project.name}</h3>
+          <p>${project.description}</p>
+          <a href="${project.link}" target="_blank">View Project</a>
+          <img src="${project.imageUrl}" alt="${project.name}" />
+      `;
+      projectsContainer.appendChild(projectElement);
+  });
+}
+
+document.addEventListener('DOMContentLoaded', loadProjects);
+
+const contactForm = document.getElementById('contact-form');
+
+contactForm.addEventListener('submit', (e) => {
+    e.preventDefault();
+
+    // Here you would typically gather the form data and send it to a server
+    alert('Thank you for your message!');
+    contactForm.reset();
 });

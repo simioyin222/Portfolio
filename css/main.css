@@ -403,3 +403,25 @@ Animation keyframes
 .btn:hover {
   background-color: #0056b3;
 }
+
+@media (max-width: 768px) {
+  .container {
+      padding: 20px;
+  }
+
+  .project-container {
+      display: block;
+  }
+
+  .project {
+      margin-bottom: 20px;
+  }
+
+  .testimonial-container {
+      display: block;
+  }
+
+  .testimonial {
+      margin-bottom: 20px;
+  }
+}
